@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 
-// Draw a simple heading
 void drawHeading() 
 {
     printf("\n===========================================\n");
@@ -9,22 +8,19 @@ void drawHeading()
     printf("===========================================\n\n");
 }
 
-
-// Print a single styled table
 void printStyledTable(int number) 
 {
     printf("+-----------+\n");
-    printf("| Table of %2d |\n", number);
+    printf("| Table of %d |\n", number);
     printf("+-----------+\n");
     for (int i = 1; i <= 10; i++) 
     {
-        printf("| %2d x %2d = %3d |\n", number, i, number * i);
+        printf("| %d x %d = %d |\n", number, i, number * i);
     }
     printf("+-----------+\n\n");
 }
 
 
-// Print multiple tables side by side
 void printTablesHorizontally(int start, int end) 
 {
     printf("-------------------------------------------------------------\n");
@@ -32,7 +28,7 @@ void printTablesHorizontally(int start, int end)
     {
         for (int num = start; num <= end; num++) 
         {
-            printf("%4d ", num * i);
+            printf("%d ", num * i);
         }
         printf("\n");
     }
