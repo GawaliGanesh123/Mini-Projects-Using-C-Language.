@@ -8,7 +8,7 @@ void drawHeading()
     printf("===========================================\n\n");
 }
 
-void printStyledTable(int number) 
+void printTable(int number) 
 {
     printf("+-----------+\n");
     printf("| Table of %d |\n", number);
@@ -59,10 +59,10 @@ int main()
 
             if (number <= 0) 
             {
-                printf("\n Please enter a positive number only!\n\n");
+                printf("\n Please enter a positive number only........!\n\n");
             } else 
             {
-                printStyledTable(number);
+                printTable(number);
             }
 
         } else if (option == 2) 
