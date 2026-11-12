@@ -1,79 +1,97 @@
-# 💻 Mini Project Collection in C
+💻 Mini Project Collection in C
 
-This repository contains a collection of small projects written in the C programming language.  
-I worked on these projects as part of my learning journey, and they helped me understand and practice important programming concepts in C.  
-Through these projects, I learned a lot about how to build small programs using logic, loops, conditionals, and functions.
+This repository contains a collection of mini projects developed using the C programming language.
 
+I created these projects as part of my programming learning journey. These projects helped me improve my coding skills, logical thinking, and problem-solving abilities.
 
-## 📋 List of Projects
+Through these projects, I practiced important C programming concepts such as loops, conditionals, functions, user input/output, and basic calculations.
 
-# 1. 📐 Area Calculator
-- Calculates the area of:
-  - Circle
-  - Rectangle
-  - Triangle
-  - Square
-- The user selects the shape and provides input values, and the program calculates and displays the area.
+📋 List of Projects
+1. 📊 Table Generator
+Generates multiplication tables.
+Supports two modes:
+Single number table
+Range of numbers table
+Allows users to generate another table if needed.
+2. 🧮 Simple Calculator
+Performs basic mathematical operations:
+Addition
+Subtraction
+Multiplication
+Division
+Takes input from the user and displays the calculated result.
+3. 🧠 Quiz Application
+Contains 5 multiple-choice questions.
+Accepts answers from the user.
+Calculates the total score out of 5.
+Displays a Pass/Fail message based on the score.
+4. 🌡️ Temperature Converter
+Converts temperatures between:
+Celsius to Fahrenheit
+Fahrenheit to Celsius
+Uses the correct mathematical formulas for temperature conversion.
+5. 📅 Year Calculator
+Calculates age based on the date of birth and current date.
+Displays:
+Years
+Months
+Weeks
+Days
+Helps understand date calculations and time differences.
+6. 🌐 Internet Service Billing System
+Allows users to register for a new internet connection.
+Takes customer details:
+Customer Name
+Phone Number
+Start Date
+End Date
+Automatically calculates the number of days used.
+Calculates the total internet bill based on the price per day.
+Generates a customer bill receipt.
+7. 🔐 Login System
+Provides a simple user registration and login system.
+Takes user details:
+Name
+Email
+Password
+Repeat Password
+Checks whether both passwords match during registration.
+Verifies email and password during login.
+Allows 3 login attempts before displaying an account lock message.
+🛠 Technologies Used
+Programming Language: C
+Platform: Console-Based Application
+Compiler: GCC / Any C Compiler
+Concepts Used
+Variables and Data Types
+Functions
+Loops and Conditionals
+Switch Statements
+Arrays and Strings
+User Input and Output
+Basic Mathematical Calculations
+String Handling
+Date and Time Calculations
+🎯 Purpose of These Projects
+Improve C programming skills.
+Practice logical thinking and problem-solving.
+Understand fundamental programming concepts.
+Learn how to develop interactive console-based applications.
+Gain practical coding experience.
+🙋‍♂️ About This Project
 
-# 2. 📊 Table Generator
-- Generates multiplication tables.
-- Two modes:
-  - Single number table
-  - Range of numbers table
-- Allows the user to generate another table if needed.
+These mini projects were developed by me while learning the C programming language.
 
-# 3. 🧠 Quiz Application
-- Simple quiz with 5 multiple-choice questions.
-- Calculates score out of 5.
-- Displays pass/fail message based on score.
-
-# 4. 🌡️ Temperature Converter
-- Converts temperatures:
-  - Celsius to Fahrenheit
-  - Fahrenheit to Celsius
-- Uses correct formulas for conversion and shows them to the user.
-
-# 5. 📅 Year Calculator
-- Calculates age based on date of birth and current date.
-- Displays:
-  - Years
-  - Months
-  - Weeks
-  - Days
-- Useful for understanding date differences (approximate).
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 🛠 Technologies Used
-
-- Language: **C**
-- Platform: Console-based (runs in terminal or any C compiler)
-- Concepts used:
-  - Functions
-  - Loops and Conditionals
-  - User Input/Output
-  - Basic Math Calculations
-
------
-
-🎯 Purpose:-
-Improve C programming skills,
-Practice logic building,
-Learn how to structure small projects,
-Gain confidence with console-based applications.
-
-## 🙋‍♂️ About This Projects
-
-These mini projects were created by me while learning the C programming language.  
-Working on them gave me practical experience and a better understanding of how to write clean, functional, and interactive C programs.  
+Working on these projects gave me practical experience and helped me understand how programming concepts can be used to solve real-world problems.
 
 Through this hands-on practice, I was able to:
-- Strengthen my foundation in C
-- Improve my logical thinking and problem-solving abilities
-- Understand how real-world problems can be solved using code
-- Gain more confidence in building complete programs from scratch
 
----
+Strengthen my foundation in C programming.
+Improve my logical thinking and problem-solving abilities.
+Understand how to structure and develop small projects.
+Gain confidence in writing and debugging C programs.
+Apply theoretical programming knowledge in practical projects.
 
+⭐ Thank you for visiting my repository!
 
-
+Feel free to explore the projects and share your feedback.
