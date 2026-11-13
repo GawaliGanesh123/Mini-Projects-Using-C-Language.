@@ -7,7 +7,7 @@
 int main()
 {
     char name[50]; 
-    char start_date[20];
+    char start_date[20]; 
     char end_date[20];
     char phone_number[15];
 
